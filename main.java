@@ -1,10 +1,10 @@
-public class player {
+public class Player {
     private int health;
     private String name;
     private int inventory[10];
     private int[5] hotbar;
     
-    player(tname) {
+    player(String tname) {
         name = tname;
         health = 100;
         for(int i = 0; i<10; i++){
@@ -13,6 +13,19 @@ public class player {
         for(int i = 0; i<5; i++){
             hotbar[i] = 0;
         }
+    }
+    player(String tname, int h) {
+        name = tname;
+        health = h;
+        for(int i = 0; i<10; i++){
+            inventory[i] = 0;
+        }
+        for(int i = 0; i<5; i++){
+            hotbar[i] = 0;
+        }
+    }
+    public void setHealth(int h) {
+        health = h
     }
 }
 public class main() {
