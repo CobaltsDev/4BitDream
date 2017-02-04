@@ -1,8 +1,8 @@
-class player {
-    int health;
-    String name;
-    int inventory[10];
-    int[5] hotbar;
+public class player {
+    private int health;
+    private String name;
+    private int inventory[10];
+    private int[5] hotbar;
     
     player(tname) {
         name = tname;
