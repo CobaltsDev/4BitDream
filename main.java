@@ -4,7 +4,7 @@ public class Player {
     private int inventory[10];
     private int[5] hotbar;
     
-    player(String tname) {
+    Player(String tname) {
         name = tname;
         health = 100;
         for(int i = 0; i<10; i++){
@@ -14,7 +14,7 @@ public class Player {
             hotbar[i] = 0;
         }
     }
-    player(String tname, int h) {
+    Player(String tname, int h) {
         name = tname;
         health = h;
         for(int i = 0; i<10; i++){
