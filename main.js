@@ -1,0 +1,1 @@
+document.body.innerHTML("<p>We need devlopers. If you can, contribute to us on <a href=\"https://github.com/CobaltsDev\">GitHub</a>.</p>");
