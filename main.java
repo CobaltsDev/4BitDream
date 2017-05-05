@@ -30,6 +30,6 @@ public class Player {
 }
 public class main() {
     public static void main(String args[]) {
-        System.out.println("This game is currently in development! We need more developers who will volunteer to work (as in no pay).");
+        System.out.println("All of the color has dissapeared. It is your job to collect all three colors, and then combine them to make the fourth.");
     }
 }
